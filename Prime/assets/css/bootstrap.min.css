@@ -3142,15 +3142,15 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: silver;
-    border-color: silver
+    background-color: #ffb600 !important;
+    border-color: #ffb600;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: black;
+    background-color: black !important;
     border-color: black;
-    font-size: 17px;
+    
 }
 
 .btn-check:focus+.btn-primary,

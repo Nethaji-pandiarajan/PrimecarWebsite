@@ -104,7 +104,7 @@ p:last-child {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #C0C0C0;
+  color: #ffb600;
   font-family: "Cabin";
 }
 
@@ -141,21 +141,21 @@ p:last-child {
 /*default-btn&optional-btn*/
 .default-btn {
   display: inline-block;
-  border: 1px solid silver;
+  border: 1px solid #ffb600;
   padding: 10px 30px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-transform: uppercase;
-  background-color: silver;
+  background-color: #ffb600;
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
 }
 
 .default-btn:hover {
-  background-color: gray;
+  background-color: #ffb600;
   color: black;
-  border-color: #000000;
+  
 }
 
 .optional-btn {
@@ -189,7 +189,7 @@ p:last-child {
 .section-title span {
   display: block;
   margin-bottom: 8px;
-  color: #f53f85;
+  color: white;
   font-weight: 600;
 }
 
@@ -709,7 +709,7 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item a:hover, .xton-nav .navbar .navbar-nav .nav-item a:focus, .xton-nav .navbar .navbar-nav .nav-item a.active {
-  color: silver;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item:last-child a {
@@ -721,7 +721,7 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item:hover a, .xton-nav .navbar .navbar-nav .nav-item.active a {
-  color: silver;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -750,7 +750,7 @@ Navbar CSS
   margin: 0;
   position: relative;
   display: block;
-  color: #666666;
+  color: #ffb600;
   border-bottom: 1px dashed #e5e5e5;
   font-size: 15px;
   font-weight: 600;
@@ -768,7 +768,7 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #f53f85;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -781,7 +781,7 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-  color: #515050;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
@@ -798,11 +798,11 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #515050;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f53f85;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -815,7 +815,7 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #515050;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -832,11 +832,11 @@ Navbar CSS
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #515050;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #f53f85;
+  color: #ffb600;
 }
 
 .xton-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -2482,7 +2482,7 @@ Products CSS
 }
 
 .single-products-box .products-image .products-button ul li a:hover {
-  color: #f53f85;
+  color: #ffb600;
 }
 
 .single-products-box .products-image .products-button ul li a .tooltip-label {
@@ -2502,13 +2502,13 @@ Products CSS
   background-color: transparent;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  background-color: #f53f85;
+  background-color: #ffb600;
   color: #ffffff;
 }
 
 .single-products-box .products-image .products-button ul li a .tooltip-label::before {
   content: "\e9ff";
-  color: #f53f85;
+  color:  #ffb600;
   top: 50%;
   position: absolute;
   -webkit-transform: translateY(-50%);
@@ -2591,11 +2591,21 @@ Products CSS
 
 .single-products-box .products-content h3 a {
   display: inline-block;
-  color: #000000;
+  color: #ffb600;
+  font-size:30px;
+  margin-left : 10px;
+}
+
+.product-content-list i{
+  color:#ffb600;
+}
+
+.product-content-list i:hover{
+  color:black;
 }
 
 .single-products-box .products-content h3 a:hover {
-  color: #f53f85;
+  color: black;
 }
 
 .single-products-box .products-content .price {
@@ -3992,7 +4002,7 @@ Products Details CSS
 }
 
 .products-details-desc .products-info li span {
-  color: #777777;
+  color: #ffb600;
 }
 
 .products-details-desc .products-info li a {
@@ -4002,7 +4012,7 @@ Products Details CSS
 }
 
 .products-details-desc .products-info li a:hover {
-  color: #f53f85;
+  color: silver;
 }
 
 .products-details-desc .products-color-switch {
@@ -4674,8 +4684,8 @@ Products Details CSS
 
 .products-details-tab .tabs li a:hover {
   color: #ffffff;
-  background-color: silver;
-  border-color: silver;
+  background-color: #ffb600;
+  border-color: #ffb600;
 }
 
 .products-details-tab .tabs li a:hover .dot {
@@ -4688,12 +4698,12 @@ Products Details CSS
 
 .products-details-tab .tabs li.current a {
   color: black;
-  background-color: silver;
-  border-color: grey;
+  background-color: #ffb600;
+  border-color: #ffb600;
 }
 
 .products-details-tab .tabs li.current a .dot {
-  border-color: #ffffff;
+  border-color: #ffb600;
 }
 
 .products-details-tab .tabs li.current a .dot::before {
@@ -4729,7 +4739,7 @@ Products Details CSS
   left: 0;
   width: 6px;
   height: 6px;
-  background: White;
+  background: #ffb600;
   border-radius: 50%;
 }
 
@@ -8531,7 +8541,7 @@ Checkout CSS
 }
 
 .billing-details .form-group label .required {
-  color: red;
+  color: #ffb600;
 }
 
 .billing-details .form-group .nice-select {
@@ -9027,7 +9037,7 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus, .pagination-area .page-numbers.current {
-  color: #f53f85;
+  color: #ffb600;
 }
 
 .pagination-area .page-numbers.prev {
@@ -10438,7 +10448,7 @@ Go Top CSS
   bottom: -42px;
   right: 15px;
   color: #ffffff;
-  background-color: #f53f85;
+  background-color: #ffb600;
   z-index: 4;
   width: 42px;
   text-align: center;
@@ -10491,4 +10501,56 @@ Go Top CSS
   margin-top: 12px;
   list-style: none;
   font-size: 16px;
+}
+
+/* .new-price{
+  color : black;
+  background-color: #ffb600;
+  
+} */
+.arrow {
+  background: #ffb600;
+  color: black;
+  display:inline-block;
+  height:30px;
+  line-height:30px;
+  padding:0 30px 0 10px;
+  min-width:100px;
+  position:relative;
+  border-radius:4px;
+  border:1px solid #ffb600;
+
+}
+
+
+
+.arrow:before {
+  content:"";
+  height:0;
+  position:absolute;
+  width:0;
+}
+
+.arrow:before {
+  border-bottom:15px solid transparent;
+  border-right:15px solid #ffb600;
+  border-top:15px solid transparent;
+  left:-15px;
+}
+
+.arrow:after
+{
+  
+  font-size:1.5em;
+  position:absolute;
+  top:0;
+  right:4px;
+  padding:0 0 15px;
+}
+
+.arrow:hover {
+  background:#ffb600;
+  color:#fff;
+  border-radius:4px;
+  border:1px solid #ffb600;
 }
