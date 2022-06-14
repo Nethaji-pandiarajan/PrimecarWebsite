@@ -10554,3 +10554,19 @@ Go Top CSS
   border-radius:4px;
   border:1px solid #ffb600;
 }
+.priceproduct{
+  color: white;
+  
+}
+
+.priceproduct:hover {
+  color :#fff;
+}
+
+.btn-dark:hover{
+  background-color: #fcb600;
+}
+
+.mobileShow{
+  display: block !important;
+}

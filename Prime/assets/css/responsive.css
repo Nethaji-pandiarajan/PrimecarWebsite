@@ -370,7 +370,7 @@
     font-size: 14px;
   }
   .products-area .woocommerce-widget-area {
-    display: none;
+    display: block;
   }
   .error-content h3 {
     font-size: 25px;
@@ -1250,7 +1250,7 @@
     font-size: 19px;
   }
   .products-area .woocommerce-widget-area {
-    display: none;
+    display: block;
   }
   .products-filter-options .sub-title a {
     margin-right: 8px;
