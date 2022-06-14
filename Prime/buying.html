@@ -19,7 +19,35 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        
+        <style>
+            select{
+                -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    clear: both;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 30px;
+    position: relative;
+    text-align: left !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    width: 100%;
+            }
+        </style>
         <title>Prime</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -80,7 +108,7 @@
         <!-- End Page Title -->
 
         <!-- Start Products Area -->
-        <section class="products-area pt-100 pb-70">
+        <section class="products-area pt-100 pb-70 mobileShow">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12">
@@ -90,7 +118,7 @@
 
                                 <div class="selected-filters-wrap-list ">
                                     
-                                    <select name="cars" id="cars">
+                                    <select name="cars" id="brand">
                                         <option selected value="">--Select Cars--</option>
                                         <option value="Audi">Audi</option>
                                         <option value="BMW">BMW</option>
@@ -110,7 +138,7 @@
                                         <option value="Mahindra">Mahindra</option>
                                         <option value="Ford">Ford</option>
                                     </select><br />
-                                      <select name="cars" id="cars">
+                                      <select name="cars" id="brandModel">
                                         <option selected>--Select Model--</option>
                                       </select><br />
                                       <select name="cars" id="cars">
@@ -127,19 +155,15 @@
                                         <option value="Manual">Manual</option>
                                       </select>   <br />
                                                                      
-                                      <select name="cars" id="cars">
-                                        <option value="volvo">--Select Fuel--</option>
-                                        <option value="Petrol">Petrol</option>
-                                        <option value="Diesel">Diesel</option>
-                                        <option value="Electric">Electric</option>
-                                        <option value="CNG">CNG</option>
-                                        <option value="Hybrid">Hybrid</option>
+                                      <select name="cars" id="selectPrice">
+                                        <option value="volvo">--Select Price Range--</option>
+                                        <option value="Petrol">Less than ₹5 L</option>
+                                        <option value="Diesel">Between 5L to ₹10L</option>
+                                        <option value="Electric">Between 10L to 25L</option>
+                                        <option value="CNG">15L to 50L</option>
+                                        <option value="Hybrid">Above 50L</option>
                                       </select>   
-                                      
-                                       
-                                    
-
-                                    
+ 
                                 </div>
                             </div>
 
@@ -161,7 +185,7 @@
             
                         <div id="products-collections-filter" class="row products-row-view">
                             <div class="col-lg-6 col-md-6 col-sm-6 products-col-item">
-                                <div class="single-products-box">
+                                <!-- <div class="single-products-box">
                                     <div class="products-image">
                                         <a href="#">
                                             <img src="assets/img/products/img1.jpg" class="main-image" alt="image" style="height:250px;width: 100%;">
@@ -202,7 +226,57 @@
                                         </div>
                                        
                                     </div>
-                                </div>
+                                </div> -->
+                                <div class="row justify-content-center mb-3">
+                                    <div class="col-md-12 col-xl-10 ">
+                                      <div class="card shadow-0 border rounded-3">
+                                        <div class="card-body">
+                                          <div class="row">
+                                            <div class="col-md-12 col-lg-3 col-xl-4 mb-4 mb-lg-0">
+                                              <div class="bg-image hover-zoom ripple rounded ripple-surface">
+                                                <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/new/img(4).webp"
+                                                  class="w-100" style="height:200px;" />
+                                                <a href="#!">
+                                                  <div class="hover-overlay">
+                                                    <div class="mask" style="background-color: rgba(253, 253, 253, 0.15);"></div>
+                                                  </div>
+                                                </a>
+                                              </div>
+                                            </div>
+                                            <div class="col-md-6 col-lg-6 col-xl-5">
+                                              <h5>Quant olap shirts</h5>
+                                            
+                                              <ul class="mt-3" style="flex-wrap: wrap;display: flex;">
+                                                <li class="product-content-list"><i class="fa-solid fa-road"></i> 12000 Km</li>
+                                                <li class="product-content-list"><i class="fa-solid fa-gear"></i> Auto</li>
+                                                <li class="product-content-list"><i class="fa-solid fa-calendar"></i> 2019</li>
+                                                <li class="product-content-list"><i class="fa-solid fa-gas-pump"></i> Diesel</li>
+                                                <li class="product-content-list"><i class="fa-solid fa-car"></i> Model Name</li>
+                                                <li class="product-content-list"><i class="fa-solid fa-palette"></i> Colour</li>
+                                            </ul>
+                                             
+                                            </div>
+                                            <div class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start">
+                                              <div class="d-flex flex-row align-items-center mb-1">
+                                                <h4 class="mb-3 me-1 fs-3">₹14.99</h4>
+                                                
+                                              </div>
+                                             
+                                              <div class="d-flex flex-column mt-4">
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView">
+                                                   
+                                                    <button class="btn btn-primary btn-sm w-100" type="button"> <i class='bx bx-search-alt'></i>View</button>
+                                                </a>
+                                                <a href="productsPage.html">
+                                                <button class="btn btn-primary btn-sm mt-2" type="button">Enquire now ! </button>
+                                            </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
                             </div>
                            
                         </div>
@@ -261,7 +335,7 @@
                                     <a href="#" class="default-btn"><i class="fa-brands fa-whatsapp"></i> Send Enquiry</a>
                                 </div>
 
-                                <a href="#" class="view-full-info">View Full Info</a>
+                                <a href="productsPage.html" class="view-full-info">View Full Info</a>
                             </div>
                         </div>
                     </div>
@@ -293,6 +367,7 @@
         <script src="assets/js/contact-form-script.js"></script>
         <script src="assets/js/ajaxchimp.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/buying.js"></script>
         <script>
             $(document).ready(function () {
                 $("#header").load("header.html");
